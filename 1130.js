@@ -69,8 +69,6 @@ const rawData = `"學生姓名","國文","數學","英文"
 const rawDataArray = rawData.split('\n')
 console.log(rawDataArray)
 
-111
-
 // 取代多餘的("")，然後分依逗號分取陣列值
 //replace or replaceAll(原來的,取代成)
 const titleArray = rawDataArray[0].replaceAll('"', '').split(',')
