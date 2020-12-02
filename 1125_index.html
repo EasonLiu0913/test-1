@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1125 JS</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- 美金換台幣，台幣換美金 -->
+    <input type="text" id="money" />
+    <button id="usd2twd">美金轉台幣</button>
+    <button id="twd2usd">台幣轉美金</button>
+    <h1 id="moneyDisplay"></h1>
+
+    <!-- bmi計算 -->
+    <h1>你目前的身高（公分）</h1>
+    <input type="text" id="cm" />
+    <h1>你目前的體重（公斤）</h1>
+    <input type="text" id="kg" />
+    <br />
+    <button id="bmi">計算</button>
+    <h1 id="bmiDisplay">0</h1>
+
+    <!-- 會員註冊 -->
+    <h1 id="message"></h1>
+    會員姓名:<input type="text" id="name" /><br />
+    會員電話:<input type="text" id="tel" /><br />
+    會員住址:<input type="text" id="address" /><br />
+    會員帳號:<input type="text" id="username" /><br />
+    會員密碼:<input type="password" id="password" /><br />
+    密碼確認:<input type="password" id="password2" /><br />
+    <button id="register">註冊</button>
+
+    <!-- 值骰子 -->
+    <div id="dice" style="font-size: 100px; color: rgb(213, 230, 68)">
+      <i class="fas fa-dice-one"></i>
+    </div>
+    <h1 id="point">5點</h1>
+    <button id="start">開始</button>
+    <!-- 遊戲抽卡 
+        5 星卡：機率 3%;4 星卡：機率 17%;3 星卡：機率 80%
+    1~3:5星卡 4~20:4星卡 21~100:5星卡-->
+    <h1 id="result">抽獎結果是...</h1>
+    <button id="play">開始</button>
+
+    <script src="1125.js"></script>
+  </body>
+</html>
