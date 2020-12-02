@@ -42,7 +42,7 @@ function createCard(suit, point) {
       img = Poker.getCardImage(60, suit, point)
       break
   }
-123
+
   return { suit, point, img }
 }
 
